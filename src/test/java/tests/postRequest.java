@@ -3,7 +3,7 @@ package tests;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import base.POJOGETTERSETTER;
+import base.POJOGETTERSETTERtest;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.*;
 
@@ -26,7 +26,7 @@ public class postRequest {
 		
 		
 		
-	  POJOGETTERSETTER pj = new POJOGETTERSETTER(quote, author);
+	  POJOGETTERSETTERtest pj = new POJOGETTERSETTERtest(quote, author);
 		
 	Response res =	given()
 		.baseUri("https://dummyjson.com/")

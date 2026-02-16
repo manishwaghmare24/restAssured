@@ -1,13 +1,13 @@
 package base;
 
-public class POJOGETTERSETTER {
+public class POJOGETTERSETTERtest {
 
 	private String quote;
 	private String author;
 	
-	public POJOGETTERSETTER() {};
+	public POJOGETTERSETTERtest() {};
 	
-	public POJOGETTERSETTER(String quote, String author) {
+	public POJOGETTERSETTERtest(String quote, String author) {
 		this.quote = quote;
 		this.author = author;
 	}

@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.TokenAuthUsername">
+      <class name="tests.CreateUser">
         <methods>
-          <include name="auth"/>
-          <include name="getToken"/>
-          <include name="responseToken"/>
-          <include name="close"/>
-          <include name="startReport"/>
+          <include name="createUser"/>
         </methods>
-      </class> <!-- tests.TokenAuthUsername -->
+      </class> <!-- tests.CreateUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
