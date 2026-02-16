@@ -10,7 +10,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.model.Report;
 
 import base.ExtentManager;
-public class TokenAuthUsername {
+public class TokenAuthUsernameTest {
 	String token;
 @BeforeSuite
 public void startReport() {
