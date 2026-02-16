@@ -3,7 +3,7 @@ package tests;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
-public class temp {
+public class CreateUserTest {
 	@Test
 	public void createUser() {
 		String payload = "{\"name\" :  \"John\", \"job\" : \"engineer\"}";
